@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>minesweeper</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+                <link rel='stylesheet' href='style.css'/>
+                <script
+                        src="https://code.jquery.com/jquery-3.3.1.min.js"
+                        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                        crossorigin="anonymous"></script>
+                <script src="minesweeper.js"></script>
+        
+    </head>
+    <body>
+        <h1 id = "header"> MINESWEEPER</h1>
+        <div id = "one">
+            <p>enter # of rows:</p>
+            <input id = "numRows" type = "number">
+        </div>
+        <div id = "two">
+            <p>enter # of columns:</p>
+            <input id = "numCols" type = "number">
+        </div>
+        <div id = "three">
+            <p>enter # of bombs:</p>
+            <input id = "numBombs" type = "number">
+        </div>
+        <button id = "submit"> submit</button>
+        <button id = "restart"> restart game </button>
+        <div id = "highScore" class = "highScore"> high score: </div>
+        <div id = "bombsLeft" class = "bombsLeft"></div>
+        <section class = timerSection>
+        </section>
+       
+        <div id = "grid" class = grid> 
+        </div>
+    </body>
+</html>
